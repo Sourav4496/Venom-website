@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* header-------------------------------------------------------- */
+.h1{
+    display: none;
+}
+.d1{
+    height: auto;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    margin-left: 5px;
+
+}
+.d2{
+    margin-right: 5px;
+    display: none;
+}
+.u1{
+    list-style: none;
+    display: flex;
+}
+.u1 li{
+    padding-left: 5px;
+}
+
+.u1 li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* navbar------------------------------------------------------------------------- */
+.u2{
+    display: flex;
+}
+.u2 li{
+    list-style: none;
+    
+}
+.u2 a{
+    text-decoration: none;
+    color: black;
+}
+.u2 a:hover{
+    color: red;
+}
+.sitename{
+    font-size: 30px;
+    flex: 1;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.togglebutton{
+    font-size: 30px;
+    display: none;
+}
+.side{
+    font-weight: 100;
+    font-size: 25px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+.side:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+
+
+.d3{
+    background-color: gray;
+    color: white;
+    height: 30px;
+    display: none;
+}
+.d3 ul{
+    margin-left: 5px;
+    display: flex;
+}
+.d3 li{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 25px;
+    margin-top: 5px;
+}
+.d3 ul li:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.h2 {
+    overflow: hidden;
+    position: relative;
+  }
+  
+
+  .h2 #myLinks {
+    display: none;
+    text-align: center;
+}
+
+
+.h2 a {
+      color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+
+  .h2 a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -5px;
+  }
+   
+  .active {
+    color: black;
+  }
+
+
+
+  /* login div------------------------------------------------ */
+  .ld1{
+      height: 91vh;
+      border: 2px solid black;
+  }
+.ld2{
+    border: 2px solid black;
+    height: 50%;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+
+
+
+
+  /*media query------------------------------------------------------  */
+
+@media(max-width:800px){
+    .u2{
+        flex-wrap: wrap;
+    }
+    .togglebutton{
+        display: block;
+        margin-right: 10px;
+    }
+    .side{
+        display: none;
+     }
+
+}
+
+@media (min-width:800px){
+    .d2{
+        display: block;
+    }
+    .h1{
+        display: block;
+    }
+    .h2{
+        display: none;
+    }
+
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">    
+
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <script src="login.js"></script>
+    <!-- header------------------------------------------------------------- -->
+   <div class="d1">
+    <p class="p1"><i class="fas fa-boxes" style="color: white;"></i>Free Shipping for orders over 50$</p>
+
+    <div class="d2">
+        <ul class="u1">
+            <li>About</li>
+            <li>Contact</li>
+            <li>Help Center</li>
+            <li>Call us 212-233346</li>
+        </ul>
+    </div></div>
+
+
+    <header class="h1">
+        <ul class="u2">
+        <li class="sitename">VENOM 1.0</li>
+        <li class="side"><a href=""> Login <i class="fas fa-user-circle"></i></a></li>
+        <li class="side" >Favourites <i class="fas fa-heart"></i></li>
+        <li class="side">Cart<i class="fas fa-shopping-cart" ></i></li>
+        </ul>
+        </div>
+    </header>
+   <header class="h2">
+    <span class="sitename">Venom 1.0</span>
+    <div id="myLinks">
+      <a >Login <i class="fas fa-user-circle"></i></a>
+      <a >Favourites <i class="fas fa-heart"></i></a>
+      <a >Cart<i class="fas fa-shopping-cart" ></i></a>
+    </div>
+    <a class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+   </header>
+
+<!-- login div--------------------------------------------------- -->
+<table style="border:2px solid black;margin: auto;margin-top: 100px;">
+    <tr>
+       <th> BL Employee's Registration  Form</th>
+    </tr>
+    <form action="">
+    <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text"  id="name" placeholder="Enter your name"></td>
+    </tr>
+    <tr>
+        <td><label for="email">E-mail:</label></td>
+        <td><input type="email"  id="email" placeholder="Enter your e-mail"></td>
+    </tr>
+    <tr>
+        <td><label for="contact">Contact:</label></td>
+        <td><input type="number" id="contact" placeholder="Enter your Contact"></td>
+    </tr>
+    <tr>
+        <td><label for="doj">DOJ:</label></td>
+        <td><input type="date" id="doj"placeholder="Enter your DOJ"></td>
+    </tr>
+    <tr>
+        <td><label for="dol">DOL:</label></td>
+        <td><input type="date" id="dol" placeholder="Enter your DOL"></td>
+    </tr>
+    <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td><input type="radio" name="gender" value="Male"><label for="gender">Male</label><input type="radio" name="gender" value="Female"><label for="gender">Female</label><input type="radio" name="gender" value="Others"><label for="gender">Others</label></td>
+    </tr>
+    <tr>
+        <td>Remarks:</td>
+        <td><input type="text" name="" id="remarks" placeholder="Remarks if any"></td>
+    </tr>
+    <tr>
+        <td>Are you sure you want to submit</td>
+        <td><input type="checkbox" name="" id="checkbox"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="SUBMIT NOW" id="submit">
+            <input type="reset" value="RESET " id="reset"></td>
+    </tr>
+</form>
+</table>
+
+
+</body>
+</html>
