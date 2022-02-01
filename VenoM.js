@@ -32,7 +32,7 @@ function myFunction() {
         }
         i++;
       if(i==3)
-        i==0;
+        i=0;
         
         setTimeout("slider()",2000);
   }
